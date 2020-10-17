@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(249, 249, 249);
+}
+
+.statistics-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.statistics {
+  background-color: rgb(255, 255, 255);
+  padding: 2.5rem;
+}
+
+.statistics-item + .statistics-item {
+  margin-left: 1rem;
+}
+
+.statistics-values {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.statistics-item {
+  max-width: 200px;
+}
+
+.site-card {
+  max-width: 350px;
+  margin-top: 3.5rem;
+}
+
+.site-card + .site-card {
+  margin-left: 2rem;
+}
+
+.site-card-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+hr {
+  border: 1px solid rgb(246, 226, 41);
+  width: 1.5rem;
+  margin: 5px 0;
+}
+
+.btn {
+  max-width: 150px;
+  border-radius: 0;
+  background-color: rgb(246, 226, 41);
+}
+
+.even-space {
+  justify-content: space-evenly;
+}
+
+/* small device */
+@media (max-width: 575.98px) {
+  .site-card + .site-card {
+    margin-left: 0rem;
+  }
+
+  .statistics-item + .statistics-item {
+    margin-left: 0rem;
+  }
+}
