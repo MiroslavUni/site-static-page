@@ -25,15 +25,6 @@ body {
   max-width: 200px;
 }
 
-.site-card {
-  max-width: 350px;
-  margin-top: 3.5rem;
-}
-
-.site-card + .site-card {
-  margin-left: 2rem;
-}
-
 .site-card-title {
   font-size: 1.5rem;
   font-weight: 500;
@@ -53,15 +44,4 @@ hr {
 
 .even-space {
   justify-content: space-evenly;
-}
-
-/* small device */
-@media (max-width: 575.98px) {
-  .site-card + .site-card {
-    margin-left: 0rem;
-  }
-
-  .statistics-item + .statistics-item {
-    margin-left: 0rem;
-  }
 }
